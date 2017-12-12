@@ -21,29 +21,92 @@ public partial class preview_dotnet_templates_portfolio_item_index {
     protected global::System.Web.UI.HtmlControls.HtmlForm form1;
     
     /// <summary>
-    /// txtName control.
+    /// TbxName control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::System.Web.UI.WebControls.TextBox txtName;
+    protected global::System.Web.UI.WebControls.TextBox TbxName;
     
     /// <summary>
-    /// txtmail control.
+    /// RfvName control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::System.Web.UI.WebControls.TextBox txtmail;
+    protected global::System.Web.UI.WebControls.RequiredFieldValidator RfvName;
     
     /// <summary>
-    /// txtMessage control.
+    /// TbxLastName control.
     /// </summary>
     /// <remarks>
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::System.Web.UI.WebControls.TextBox txtMessage;
+    protected global::System.Web.UI.WebControls.TextBox TbxLastName;
+    
+    /// <summary>
+    /// RfvLastName control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.RequiredFieldValidator RfvLastName;
+    
+    /// <summary>
+    /// TbxMail control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.TextBox TbxMail;
+    
+    /// <summary>
+    /// RfvMail control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.RequiredFieldValidator RfvMail;
+    
+    /// <summary>
+    /// RegularExpressionValidator1 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
+    
+    /// <summary>
+    /// TbxPhone control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.TextBox TbxPhone;
+    
+    /// <summary>
+    /// textarea1 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.TextBox textarea1;
+    
+    /// <summary>
+    /// RfvPoruka control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.RequiredFieldValidator RfvPoruka;
 }
