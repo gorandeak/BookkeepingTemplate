@@ -91,13 +91,13 @@
 					<div class="col-md-6 text-center fadein scaleInv anim_2">
 						<div class="text-center">
 							<div class="fadein scaleInv anim_3">
-								<img src="img/slide1-3.png" alt="" class="slide1-3 animated fadeInRightBig">
+								<img src="Img/slide1-3.png" alt="" class="slide1-3 animated fadeInRightBig">
 							</div>
 							<div class="fadein scaleInv anim_8">
-								<img src="img/slide1-1.png" alt="" class="slide1-1 animated fadeInRightBig">
+								<img src="Img/slide1-1.png" alt="" class="slide1-1 animated fadeInRightBig">
 							</div>
 							<div class="fadein scaleInv anim_5">
-								<img src="img/slide1-2.png" alt="" class="slide1-2 animated fadeInRightBig">
+								<img src="Img/slide1-2.png" alt="" class="slide1-2 animated fadeInRightBig">
 							</div>
 						</div>
 					</div>
@@ -148,7 +148,7 @@
 
                    <div class="well">
                    <h4><strong>
-                   Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.</strong>
+                   Vođenje knjiga od malih obrta do velikih poduzeća.</strong>
                    </h4>                  
                    </div>
                   <div class="container">
@@ -162,18 +162,13 @@
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
                     <span class="side-tab" data-target="#tab1" data-toggle="tab" role="tab" aria-expanded="false">
                         <div class="panel-heading" role="tab" id="headingOne"data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <h4 class="panel-title">UI/UX</h4>
+                            <h4 class="panel-title">Računovodstvene usluge</h4>
                         </div>
                     </span>
                     
                     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
-                        <h4>
-                        Name : Sun
-                        </h4>
-                        <!-- Tab content goes here -->
-                        That fall, as Nadia and Masha got shipped off to prison camps in Siberia, South Brooklyn tried to recover from the storm. My dad and I spent a lot of time in the same apartment engrossed in separate laptops, separate internet missives. He followed Russian news bloggers closely and would update me on troubling developments. A rise in protofascist nationalism
-                        </div>
+                        Nudimo računovodstvene usluge u skladu sa Zakonom o računovodstvu, hrvatskim i međunarodnim računovodstvenim standardima i standardima finacijskogfinancijskog izvješćivanja (ovisno o veličini i potrebama klijenta) te poreznim propisima.</div>
                     </div>
                 </div> 
                 <!-- / panel 1 -->
@@ -183,18 +178,14 @@
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
                     <span class="side-tab" data-target="#tab2" data-toggle="tab" role="tab" aria-expanded="false">
                         <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <h4 class="panel-title collapsed">Director</h4>
+                            <h4 class="panel-title collapsed">Ljudski resursi</h4>
                         </div>
                     </span>
 
                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                          <div class="panel-body">
-                        <h4>
-                        Name : Sun
-                        </h4>
-                        <!-- Tab content goes here -->
-                        That fall, as Nadia and Masha got shipped off to prison camps in Siberia, South Brooklyn tried to recover from the storm. My dad and I spent a lot of time in the same apartment engrossed in separate laptops, separate internet missives. He followed Russian news bloggers closely and would update me on troubling developments. A rise in protofascist nationalism
-                        </div>
+                      Sve veći broj poduzeća slijedi trend da kroz outsourcing obračuna plaće, poveća svoju efikasnost i smanji rizike prisutne kod vođenja evidencija ljudskih resursa. Usluge obračuna plaća obavljaju se u skladu sa propisima o porezu na dohodak, zakon o radu i drugim propisima koji uređuju područje plaća i ostalih primanja.
+                          </div>
                     </div>
                 </div>
                 <!-- / panel 2 -->
@@ -229,16 +220,17 @@
                         <div class="tab-featured-image">
                             <div class="tab-content">
                                 <div class="tab-pane  in active" id="tab1">
-                                        <img src="https://ununsplash.imgix.net/photo-1417024321782-1375735f8987?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab1" class="img img-responsive">
+                                    <img src="Img/bookkeeping-615384_960_720.jpg" class="img img-responsive"/>
+                                       
                                 </div>
                                 <div class="tab-pane " id="tab2">
-                                    
-                                        <img src="https://unsplash.imgix.net/uploads/1411724908903377d4696/2e9b0cb2?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab2" class="img img-responsive" >
+                                    <img src="Img/notepad-771599_960_720.jpg" class="img img-responsive"/>
+                                        <%--<img src="https://unsplash.imgix.net/uploads/1411724908903377d4696/2e9b0cb2?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab2" class="img img-responsive" >--%>
                                     
                                 </div>
                                 <div class="tab-pane fade" id="tab3">
-                                    
-                                        <img src="https://ununsplash.imgix.net/photo-1422479516648-9b1f0b6e8da8?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab3" class="img img-responsive">
+                                    <img src="Img/ring-binders-aligned-2654130_960_720.jpg" class="img img-responsive" />
+                                        <%--<img src="https://ununsplash.imgix.net/photo-1422479516648-9b1f0b6e8da8?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab3" class="img img-responsive">--%>
                                 </div>
                             </div>
                         </div>
