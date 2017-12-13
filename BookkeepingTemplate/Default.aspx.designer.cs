@@ -93,6 +93,15 @@ public partial class preview_dotnet_templates_portfolio_item_index {
     protected global::System.Web.UI.WebControls.TextBox TbxPhone;
     
     /// <summary>
+    /// RfvPhone control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.RequiredFieldValidator RfvPhone;
+    
+    /// <summary>
     /// textarea1 control.
     /// </summary>
     /// <remarks>
@@ -109,4 +118,13 @@ public partial class preview_dotnet_templates_portfolio_item_index {
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.RequiredFieldValidator RfvPoruka;
+    
+    /// <summary>
+    /// Button1 control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Button Button1;
 }
