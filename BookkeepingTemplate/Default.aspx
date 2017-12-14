@@ -48,7 +48,7 @@
 							<a class="page-scroll" href="#home">HOME</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#about">ABOUT</a>
+							<a class="page-scroll" href="#about">O NAMA</a>
 						</li>
 						
 						<li>
@@ -56,7 +56,7 @@
 						</li>
 						
 						<li>
-							<a class="page-scroll" href="#contact">CONTACT US</a>
+							<a class="page-scroll" href="#contact">KONTAKT</a>
 						</li>
               </ul>
         </div>
@@ -91,13 +91,13 @@
 					<div class="col-md-6 text-center fadein scaleInv anim_2">
 						<div class="text-center">
 							<div class="fadein scaleInv anim_3">
-								<img src="img/slide1-3.png" alt="" class="slide1-3 animated fadeInRightBig">
+								<img src="Img/slide1-3.png" alt="" class="slide1-3 animated fadeInRightBig">
 							</div>
 							<div class="fadein scaleInv anim_8">
-								<img src="img/slide1-1.png" alt="" class="slide1-1 animated fadeInRightBig">
+								<img src="Img/slide1-1.png" alt="" class="slide1-1 animated fadeInRightBig">
 							</div>
 							<div class="fadein scaleInv anim_5">
-								<img src="img/slide1-2.png" alt="" class="slide1-2 animated fadeInRightBig">
+								<img src="Img/slide1-2.png" alt="" class="slide1-2 animated fadeInRightBig">
 							</div>
 						</div>
 					</div>
@@ -143,12 +143,12 @@
     <section id="about">
 			<div class="container">
 				<div class="heading-center">
-					<h2 class="section-heading animated fadeInLeftBig">ABOUT US</h2>					
+					<h2 class="section-heading animated fadeInLeftBig">O NAMA</h2>					
 					<hr class="animated fadeInRightBig">
 
                    <div class="well">
                    <h4><strong>
-                   Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development.</strong>
+                   Vođenje knjiga od malih obrta do velikih poduzeća.</strong>
                    </h4>                  
                    </div>
                   <div class="container">
@@ -162,18 +162,13 @@
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
                     <span class="side-tab" data-target="#tab1" data-toggle="tab" role="tab" aria-expanded="false">
                         <div class="panel-heading" role="tab" id="headingOne"data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <h4 class="panel-title">UI/UX</h4>
+                            <h4 class="panel-title">Računovodstvene usluge</h4>
                         </div>
                     </span>
                     
                     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
-                        <h4>
-                        Name : Sun
-                        </h4>
-                        <!-- Tab content goes here -->
-                        That fall, as Nadia and Masha got shipped off to prison camps in Siberia, South Brooklyn tried to recover from the storm. My dad and I spent a lot of time in the same apartment engrossed in separate laptops, separate internet missives. He followed Russian news bloggers closely and would update me on troubling developments. A rise in protofascist nationalism
-                        </div>
+                        Nudimo računovodstvene usluge u skladu sa Zakonom o računovodstvu, hrvatskim i međunarodnim računovodstvenim standardima i standardima finacijskogfinancijskog izvješćivanja (ovisno o veličini i potrebama klijenta) te poreznim propisima.</div>
                     </div>
                 </div> 
                 <!-- / panel 1 -->
@@ -183,18 +178,14 @@
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
                     <span class="side-tab" data-target="#tab2" data-toggle="tab" role="tab" aria-expanded="false">
                         <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <h4 class="panel-title collapsed">Director</h4>
+                            <h4 class="panel-title collapsed">Ljudski resursi</h4>
                         </div>
                     </span>
 
                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                          <div class="panel-body">
-                        <h4>
-                        Name : Sun
-                        </h4>
-                        <!-- Tab content goes here -->
-                        That fall, as Nadia and Masha got shipped off to prison camps in Siberia, South Brooklyn tried to recover from the storm. My dad and I spent a lot of time in the same apartment engrossed in separate laptops, separate internet missives. He followed Russian news bloggers closely and would update me on troubling developments. A rise in protofascist nationalism
-                        </div>
+                      Sve veći broj poduzeća slijedi trend da kroz outsourcing obračuna plaće, poveća svoju efikasnost i smanji rizike prisutne kod vođenja evidencija ljudskih resursa. Usluge obračuna plaća obavljaju se u skladu sa propisima o porezu na dohodak, zakon o radu i drugim propisima koji uređuju područje plaća i ostalih primanja.
+                          </div>
                     </div>
                 </div>
                 <!-- / panel 2 -->
@@ -224,31 +215,26 @@
         
         <div class="col-md-8">
             <!-- begin macbook pro mockup -->
-            <div class="md-macbook-pro md-glare">
-                <div class="md-lid">
-                    <div class="md-camera"></div>
-                    <div class="md-screen">
+           
                     <!-- content goes here -->                
                         <div class="tab-featured-image">
                             <div class="tab-content">
                                 <div class="tab-pane  in active" id="tab1">
-                                        <img src="https://ununsplash.imgix.net/photo-1417024321782-1375735f8987?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab1" class="img img-responsive">
+                                    <img src="Img/bookkeeping-615384_960_720.jpg" class="img img-responsive"/>
+                                       
                                 </div>
                                 <div class="tab-pane " id="tab2">
-                                    
-                                        <img src="https://unsplash.imgix.net/uploads/1411724908903377d4696/2e9b0cb2?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950">
+                                    <img src="Img/notepad-771599_960_720.jpg" class="img img-responsive"/>
+                                        <%--<img src="https://unsplash.imgix.net/uploads/1411724908903377d4696/2e9b0cb2?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab2" class="img img-responsive" >--%>
                                     
                                 </div>
                                 <div class="tab-pane fade" id="tab3">
-                                    
-                                        <img src="https://ununsplash.imgix.net/photo-1422479516648-9b1f0b6e8da8?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab1" class="img img-responsive">
+                                    <img src="Img/ring-binders-aligned-2654130_960_720.jpg" class="img img-responsive" />
+                                        <%--<img src="https://ununsplash.imgix.net/photo-1422479516648-9b1f0b6e8da8?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab3" class="img img-responsive">--%>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="md-base"></div>
-            </div> <!-- end macbook pro mockup -->
+ <!-- end macbook pro mockup -->
         </div> <!-- / .col-md-8 -->
     </div> <!--/ .row -->
 </div> <!-- end sidetab container -->           
@@ -323,7 +309,7 @@
         <hr>
         </div>
 </section>
- <%--   <section id="contact">
+<%--    <section id="contact">
 <div class="container">
 <div class="row">
 <form class="form-horizontal">
@@ -371,12 +357,12 @@
 </section>--%>
 
         <%-- iz habibija --%>
-        <section id="contact">
+    <section id="contact">
          <div class="contact-us">
        <div class="container">
           <div class="contact-form">
            <div class="row">
-               <div class="col-sm-7">                  
+               <div class="col-sm-12">                  
                     <div id="ajax-contact"  method="post" action="contact-form-mail.php" role="form">
                         <div class="messages" id="form-messages"></div>
                         <div class="controls">
@@ -384,55 +370,59 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                        <label for="form_name">Ime *</label>
-                                        <asp:TextBox ID="TbxName" runat="server" class="form-control" placeholder="Molimo unesite svoje ime *"></asp:TextBox>
+                                       <asp:TextBox ID="TbxName" runat="server" class="form-control" placeholder="Molimo unesite svoje ime *"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="RfvName" runat="server" ErrorMessage="Molimo unesite svoje ime *" ValidationGroup="1" ControlToValidate="TbxName"></asp:RequiredFieldValidator>
-                                        <%--<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">--%>
-                                        <div class="help-block with-errors"></div>
+                                     
+                                       <%--<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors">Molimo unesite svoje ime</div>--%>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="form_lastname">Prezime *</label>
-                                        <asp:TextBox ID="TbxLastName" runat="server" class="form-control" placeholder="Molimo unesite svoje prezime *"></asp:TextBox>
+                                    <asp:TextBox ID="TbxLastName" runat="server" class="form-control" placeholder="Molimo unesite svoje prezime *"></asp:TextBox>
                                         <asp:RequiredFieldValidator ID="RfvLastName" runat="server" ErrorMessage="Molimo unesite svoje prezime *" ControlToValidate="TbxLastName" ValidationGroup="1"></asp:RequiredFieldValidator>
-                                        <%--                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">--%>
-                                        <div class="help-block with-errors"></div>
+                                   <%--  <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors">Molimo unesite svoje prezime</div>--%>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="form_email">Email *</label><asp:TextBox ID="TbxMail" runat="server" class="form-control" placeholder="Molimo unesite svoj email *" TextMode="Email"></asp:TextBox>
-                                        <asp:RequiredFieldValidator ID="RfvMail" runat="server" ErrorMessage="Molimo unesite svoj email *" ControlToValidate="TbxMail" ValidationGroup="1"></asp:RequiredFieldValidator>
+                                        <label for="form_email">Email *</label>
+                                       <asp:TextBox ID="TbxMail" runat="server" class="form-control" placeholder="Molimo unesite svoj email *" TextMode="Email"></asp:TextBox>
+                                       <asp:RequiredFieldValidator ID="RfvMail" runat="server" ErrorMessage="Molimo unesite svoj email *" ControlToValidate="TbxMail" ValidationGroup="1"></asp:RequiredFieldValidator>
                                         <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Unešeni Email je u krivom formatu" ControlToValidate="TbxMail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ValidationGroup="1"></asp:RegularExpressionValidator>
-                                        <%--<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">--%>
-                                        <div class="help-block with-errors"></div>
+                                      <%-- <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors">Unešeni Email je u krivom formatu</div>--%>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="form_phone">Telefon</label><asp:TextBox ID="TbxPhone" runat="server" class="form-control" placeholder="Molimo unesite svoj broj telefona"></asp:TextBox>
-                                        <%--<asp:RequiredFieldValidator ID="RfvPhone" runat="server" ErrorMessage="Molimo unesite svoj broj telefona*" ControlToValidate="TbxPhone" ValidationGroup="1"></asp:RequiredFieldValidator>--%>
-                                        <%-- <input id="form_phone" type="tel" name="phone"  class="form-control" placeholder="Please enter your phone*" required oninvalid="setCustomValidity('Plz enter your correct phone number ')"
+                                    <label for="form_phone">Telefon</label>
+                                      <asp:TextBox ID="TbxPhone" runat="server" class="form-control" placeholder="Molimo unesite svoj broj telefona"></asp:TextBox>
+                                     <asp:RequiredFieldValidator ID="RfvPhone" runat="server" ErrorMessage="Molimo unesite svoj broj telefona*" ControlToValidate="TbxPhone" ValidationGroup="1"></asp:RequiredFieldValidator>
+                                    <%--   <input id="form_phone" type="tel" name="phone"  class="form-control" placeholder="Please enter your phone*" required oninvalid="setCustomValidity('Plz enter your correct phone number ')"
     onchange="try{setCustomValidity('')}catch(e){}">--%>
-                                        
+                                   <%--     <div class="help-block with-errors">Molimo unesite svoj broj telefona</div>--%>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <label for="form_message">Poruka *</label>
-                                        <asp:TextBox ID="textarea1" runat="server"  class="form-control" placeholder="Poruka: *" rows="4"/>
+                                   <label for="form_message">Poruka *</label>
+                                      <asp:TextBox ID="textarea1" runat="server"  TextMode="MultiLine" class="form-control" placeholder="Poruka: *" rows="4"/>
                                         <asp:RequiredFieldValidator ID="RfvPoruka" runat="server" ErrorMessage="Molimo Vas da ostavite poruku." ValidationGroup="1" ControlToValidate="textarea1"></asp:RequiredFieldValidator>
-                                        <%--                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>--%>
-                                        <div class="help-block with-errors"></div>
+                                  
+                                     <%--   <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>--%>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                 <%--   <asp:Button ID="Button1" runat="server" class="btn btn-black" Text="Pošalji" OnClick="Button1_Click1" ValidationGroup="1" />--%>
-                                   <input type="Pošalji" class="btn btn-black" value="Send message">
+                                 <asp:Button ID="Button1" runat="server" class="btn" Text="Pošalji"  OnClick="Button1_Click1" ValidationGroup="1" ForeColor="Black" />
+                                <%--   <input type="Pošalji" class="btn" value="Send message" />--%>
                                 </div>
                             </div>
                             <div class="row">
@@ -444,30 +434,31 @@
                         </div>
                     </div>
                </div>
-               <div class="col-sm-5">
-                   <iframe width="100%" height="230" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.15947314275!2d15.93905251556764!3d45.76799417910569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d43ba34f8727%3A0xe97ed758c57f65b!2sMarita+Market!5e0!3m2!1shr!2shr!4v1504394070429"></iframe>
-                   <div class="row col1">
-                       <div class="col-xs-4">
+               <div class="col-sm-12">
+                   <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.969121478749!2d15.965802215405358!3d45.771809079105836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d5d3fe5d3a95%3A0xc43b83e2008aef54!2sSiget+ul.+18A%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1513187552298" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  <%-- <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.15947314275!2d15.93905251556764!3d45.76799417910569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d43ba34f8727%3A0xe97ed758c57f65b!2sMarita+Market!5e0!3m2!1shr!2shr!4v1504394070429"></iframe>
+                  --%> <div class="row">
+                       <div class="col-sm-4">
                            <i class="fa fa-map-marker" style="font-size:16px;"></i>   Address
                        </div>
-                       <div class="col-xs-8">
-                            <a href="https://goo.gl/maps/PSfpxqr94422">Jaruščica 9a, Zagreb, Croatia</a>
+                       <div class="col-sm-8">
+                            <a href="https://goo.gl/maps/WEhpZXPZYbs">Siget ulica 18A, Zagreb, Hrvatska</a>
                        </div>
                    </div>
-                    <div class="row col1">
+                    <div class="row">
                         <div class="col-sm-4">
                             <i class="fa fa-phone"></i>   Phone
                         </div>
                         <div class="col-sm-8">
-                             <a href="tel:+385912202044">+(385) 91 2202044</a>
+                             <a href="tel:+385915567893">+(385) 91 5567893</a>
                         </div>
                     </div>
-                    <div class="row col1">
+                    <div class="row">
                         <div class="col-sm-4">
                             <i class="fa fa-envelope"></i>   Email
                         </div>
                         <div class="col-sm-8">
-                             <a href="mailto:info@habibi-orient.com">info@habibi-orient.com</a> <br>
+                             <a href="mailto:jkodric@gmail.com">jkodric@gmail.com</a> <br>
                         </div>
                     </div>
                </div>
@@ -475,6 +466,7 @@
           </div>
        </div>
    </div>
+        
             </section>
         <%-- zatvoreno iz habibija --%>
     <div class="copyright">
@@ -482,7 +474,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <p class="pull-left">
-                        &copy; Copyright 2014 aspxtemplates.com
+                        &copy; Copyright 2017 Debug IT
                     </p>
                 </div>
                 <div class="col-md-8">
