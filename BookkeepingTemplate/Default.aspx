@@ -143,7 +143,7 @@
     <section id="about">
 			<div class="container">
 				<div class="heading-center">
-					<h2 class="section-heading animated fadeInLeftBig">O NAMA</h2>					
+					<h2 class="section-heading animated fadeInLeftBig">O nama</h2>					
 					<hr class="animated fadeInRightBig">
 
                    <div class="well">
@@ -178,7 +178,7 @@
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
                     <span class="side-tab" data-target="#tab2" data-toggle="tab" role="tab" aria-expanded="false">
                         <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <h4 class="panel-title collapsed">Ljudski resursi</h4>
+                            <h4 class="panel-title collapsed">Kadrovska</h4>
                         </div>
                     </span>
 
@@ -195,18 +195,18 @@
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
                     <span class="side-tab" data-target="#tab3" data-toggle="tab" role="tab" aria-expanded="false">
                         <div class="panel-heading" role="tab" id="headingThree"  class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <h4 class="panel-title">SEO </h4>
+                            <h4 class="panel-title">Prvi račun</h4>
                         </div>
                     </span>
 
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                          <div class="panel-body">
-                        <h4>
-                        Name : Sun
-                        </h4>
-                        <!-- Tab content goes here -->
-                        That fall, as Nadia and Masha got shipped off to prison camps in Siberia, South Brooklyn tried to recover from the storm. My dad and I spent a lot of time in the same apartment engrossed in separate laptops, separate internet missives. He followed Russian news bloggers closely and would update me on troubling developments. A rise in protofascist nationalism
-                        </div>
+                            <div class="panel-body">
+                                <p><strong>PRVI RAČUN</strong> je pouzdani partner nizu poduzeća u Hrvatskoj. Mnogi su prepoznali kvalitete našeg tima, a posebno cijene i induvidualni pristup koji posvećujemo svakom klijentu.
+Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitost po povoljnoj cijeni. Većina naših klijenata su uspješna poduzeća koja pratimo profesionalano u ispunjenju svih zadaća stavljenih pred naš tim.</p>
+                                <br/>
+                                <p> U suradnji sa vodećim institucijama u zemlji, vrlo brzo riješavamo sve potencijalne probleme i dovodimo Vaše poslovne knjige u red, Čime Vam štedimo novac i vrijeme.
+                                </p>
+                            </div>
                         </div>
                       </div>
             </div> <!-- / panel-group -->
@@ -247,27 +247,46 @@
     <section id="portfolio">
     <div class="container">
 				<div class="heading-center">
-					<h2 class="section-heading">Portfolio </h2>					
+					<h2 class="section-heading">Usluge </h2>					
 					<hr>
                     </div>
                     </div>
     <div class="container">
         <div class="row">
 
-            <div class="col-md-6">
+           <%-- <div class="col-md-6">
                 <img class="img-responsive" src="Img/700.jpg" alt="">
-            </div>
+            </div>--%>
 
             <div class="col-md-6">
-                <h3>Project Description</h3>
-                <p> <strong>Tip: </strong>Since every chapter in this tutorials are somewhat related to each other — it's a good idea to ensure that you have understood each section before you move on.</p>
-                <h3>Project Details</h3>
-                <ul>
-                    <li>Bootstrap3 Twitter</li>
-                    <li>Bootstrap3 Twitter</li>
-                    <li>Bootstrap3 Twitter</li>
-                    <li>Bootstrap3 Twitter</li>
+                <h3>Računovodstvene usluge</h3>
+                     <ul type="disc">
+                        <li>izrada računovodstvene politike i kontnog plana prema specifičnim potrebama svakog klijenta</li>
+                        <li>vođenje financijskog knjigovodstva: dnevnika i glavne knjige</li>
+                        <li>analitičko knjigovodstvo i pomoćne knjige – dugotrajna imovina (osnovna sredstva) s obračunom amortizacije, salda-konti kupaca, salda-konti dobavljača, blagajne, knjige putnih naloga i ostalog prema Vašim specifičnim potrebama</li>
+                        <li>knjiženje ulaznih (URA) i izlaznih (IRA) dokumenata te njihova klasifikacija</li>
+                        <li>popunjavanje izvještaja za potrebe državnih institucija</li>
+                        <li>rekapitulacije potraživanja i obaveza</li>
+                        <li>izrada poreznih evidencija</li>
+                        <li>platni promet</li>
+                        <li>fakturiranje</li>
+                        <li>dostava i preuzimanje dokumentacije</li>
+                        <li>dostupnost podataka 24/7</li>
+                     </ul>
+            </div>
+
+            <div class="col-md-6" >
+                <h3>Kadrovska</h3>
+                <ul type="disc">
+                    <li>registracija zaposlenika </li>
+                    <li>administracija ugovora</li>
+                    <li>izračun plaće, doprinosa, provizija, bonusa i slično</li>
+                    <li>izračun drugog dohotka</li>
+                    <li>uplate i evidencija</li>
+                    <li>izrada izvještaja za državne institucije i zaposlene</li>
+                    <li>isplata plaća putem internet bankarstva</li>
                 </ul>
+            </div>
             </div>
 
         </div>
@@ -358,6 +377,10 @@
 
         <%-- iz habibija --%>
     <section id="contact">
+        	<div class="heading-center">
+					<h2 class="section-heading">Kontaktirajte nas ili nas posjetite na lokaciji</h2>					
+					<hr>
+                    </div>
          <div class="contact-us">
        <div class="container">
           <div class="contact-form">
