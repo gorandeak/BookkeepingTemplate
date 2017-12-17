@@ -42,21 +42,21 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" style="color:#074B75">
                 
                 <li class="active">
-							<a class="page-scroll" href="#home">HOME</a>
+							<a class="page-scroll" href="#home" style="color:#074B75; font-weight:bold;">HOME</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#about">O NAMA</a>
-						</li>
-						
-						<li>
-							<a class="page-scroll" href="#portfolio">PORTFOLIO</a>
+							<a class="page-scroll" href="#about" style="color:#074B75;font-weight:bold;">O NAMA</a>
 						</li>
 						
 						<li>
-							<a class="page-scroll" href="#contact">KONTAKT</a>
+							<a class="page-scroll" href="#portfolio" style="color:#074B75;font-weight:bold;">PORTFOLIO</a>
+						</li>
+						
+						<li>
+							<a class="page-scroll" href="#contact" style="color:#074B75;font-weight:bold;">KONTAKT</a>
 						</li>
               </ul>
         </div>
@@ -79,11 +79,11 @@
 					<div class="col-md-6 fadein scaleInv anim_1">
                     <br />
 						<div class="fadein scaleInv anim_2">
-							<h1 class="carouselText1 animated fadeInLeftBig">Responsive  <span class="colortext">Webdesign Templates -  Bootstrap Template, HTML5 & Css3</span></h1>
+							<h1 class="carouselText1 animated fadeInLeftBig">Tekst  <span class="colortext">Tekst tekst tekst tekst tekst tekst</span></h1>
 						</div>
 						<div class="fadein scaleInv anim_1">
 							<p class="carouselText2 animated fadeInLeftBig">
-								Exlent Support Video, Audio
+								Tekst tekst tekst tekst tekst tekst
 							</p>
 						</div>							
 						
@@ -91,13 +91,13 @@
 					<div class="col-md-6 text-center fadein scaleInv anim_2">
 						<div class="text-center">
 							<div class="fadein scaleInv anim_3">
-								<img src="Img/slide1-3.png" alt="" class="slide1-3 animated fadeInRightBig">
+								<img src="Img/slika3.png" alt="" class="slide1-3 animated fadeInRightBig">
 							</div>
 							<div class="fadein scaleInv anim_8">
-								<img src="Img/slide1-1.png" alt="" class="slide1-1 animated fadeInRightBig">
+								<img src="Img/slka.png" alt="" class="slide1-1 animated fadeInRightBig">
 							</div>
 							<div class="fadein scaleInv anim_5">
-								<img src="Img/slide1-2.png" alt="" class="slide1-2 animated fadeInRightBig">
+								<img src="Img/slika6.png" alt="" class="slide1-2 animated fadeInRightBig">
 							</div>
 						</div>
 					</div>
@@ -109,7 +109,7 @@
 				<div class="row">
 					<div class="col-md-6 animated fadeInUp notransition">
                     <br />
-						<img src="img/slide1-1.png" alt="" style="width:90%;">
+						<img src="<%--img/slide1-1.png--%>" alt="" style="width:90%;">
 					</div>
 					<div class="col-md-6 animated fadeInDown  notransition topspace30 text-right">
 						
@@ -117,16 +117,16 @@
 						<br>
 						<br>
 						<div class="car-highlight3 animated fadeInUpBig notransition">
-							 Bootstrap is completely free to download and use!
+							 Tekst tekst tekst tekst tekst tekst
 						</div>
 						<br>
 						<div class="car-highlight4 animated flipInX notransition">
-							Bootstrap Text/Typography, Bootstrap Tables
+							Tekst tekst tekst tekst tekst tekst
 						</div>
 						<br>
 						<div class="car-highlight5 animated rollIn notransition">
-							 Bootstrap Button Groups Total Control
-							ootstrap allows you to group a series of buttons<br /> together (on a single line) in a button group
+							 Tekst tekst tekst tekst tekst tekst
+							Tekst tekst tekst tekst tekst tekst<br /> Tekst tekst tekst tekst tekst tekst
 						</div>
 					</div>
 				</div>
@@ -140,14 +140,14 @@
 	</section>
         <!-- /.carousel end-->
     </div>
-    <section id="about">
+    <section id="about" style="background-color:#F8F7FF;">
 			<div class="container">
-				<div class="heading-center">
-					<h2 class="section-heading animated fadeInLeftBig">O nama</h2>					
-					<hr class="animated fadeInRightBig">
+				<div class="heading-center" >
+					<h2 class="section-heading animated fadeInLeftBig" style="color: #095D91;">O nama</h2>					
+					<hr class="animated fadeInRightBig" style="border-color: #0A69A3;width: 160px;">
 
-                   <div class="well">
-                   <h4><strong>
+                   <div class="well" style="background-color: #F0EEFF;">
+                   <h4 style="color: #00023D;"><strong>
                    Vođenje knjiga od malih obrta do velikih poduzeća.</strong>
                    </h4>                  
                    </div>
@@ -161,13 +161,13 @@
                 <div class="panel panel-default">
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
                     <span class="side-tab" data-target="#tab1" data-toggle="tab" role="tab" aria-expanded="false">
-                        <div class="panel-heading" role="tab" id="headingOne"data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="panel-heading" role="tab" id="headingOne"data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: #145DA3;">
                             <h4 class="panel-title">Računovodstvene usluge</h4>
                         </div>
                     </span>
                     
                     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                        <div class="panel-body">
+                        <div class="panel-body" style="background-color: #F0EEFF;">
                         Nudimo računovodstvene usluge u skladu sa Zakonom o računovodstvu, hrvatskim i međunarodnim računovodstvenim standardima i standardima finacijskogfinancijskog izvješćivanja (ovisno o veličini i potrebama klijenta) te poreznim propisima.</div>
                     </div>
                 </div> 
@@ -177,13 +177,13 @@
                 <div class="panel panel-default">
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
                     <span class="side-tab" data-target="#tab2" data-toggle="tab" role="tab" aria-expanded="false">
-                        <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #145DA3;">
                             <h4 class="panel-title collapsed">Kadrovska</h4>
                         </div>
                     </span>
 
                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                         <div class="panel-body">
+                         <div class="panel-body" style="background-color: #F0EEFF;">
                       Sve veći broj poduzeća slijedi trend da kroz outsourcing obračuna plaće, poveća svoju efikasnost i smanji rizike prisutne kod vođenja evidencija ljudskih resursa. Usluge obračuna plaća obavljaju se u skladu sa propisima o porezu na dohodak, zakon o radu i drugim propisima koji uređuju područje plaća i ostalih primanja.
                           </div>
                     </div>
@@ -194,13 +194,13 @@
                 <div class="panel panel-default">
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
                     <span class="side-tab" data-target="#tab3" data-toggle="tab" role="tab" aria-expanded="false">
-                        <div class="panel-heading" role="tab" id="headingThree"  class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="panel-heading" role="tab" id="headingThree"  class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: #145DA3;">
                             <h4 class="panel-title">Prvi račun</h4>
                         </div>
                     </span>
 
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                            <div class="panel-body">
+                            <div class="panel-body" style="background-color: #F0EEFF;">
                                 <p><strong>PRVI RAČUN</strong> je pouzdani partner nizu poduzeća u Hrvatskoj. Mnogi su prepoznali kvalitete našeg tima, a posebno cijene i induvidualni pristup koji posvećujemo svakom klijentu.
 Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitost po povoljnoj cijeni. Većina naših klijenata su uspješna poduzeća koja pratimo profesionalano u ispunjenju svih zadaća stavljenih pred naš tim.</p>
                                 <br/>
@@ -247,8 +247,8 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
     <section id="portfolio">
     <div class="container">
 				<div class="heading-center">
-					<h2 class="section-heading">Usluge </h2>					
-					<hr>
+					<h2 class="section-heading" style="color: #095D91;">Usluge </h2>					
+					<hr style="border-color: #0A69A3;width: 160px;">
                     </div>
                     </div>
     <div class="container">
@@ -259,7 +259,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
             </div>--%>
 
             <div class="col-md-6">
-                <h3>Računovodstvene usluge</h3>
+                <h3 style="border-color: #0D8BD9; color: #0D8BD9;">Računovodstvene usluge</h3>
                      <ul type="disc">
                         <li>izrada računovodstvene politike i kontnog plana prema specifičnim potrebama svakog klijenta</li>
                         <li>vođenje financijskog knjigovodstva: dnevnika i glavne knjige</li>
@@ -276,7 +276,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
             </div>
 
             <div class="col-md-6" >
-                <h3>Kadrovska</h3>
+                <h3 style="border-color: #0D8BD9; color: #0D8BD9;">Kadrovska</h3>
                 <ul type="disc">
                     <li>registracija zaposlenika </li>
                     <li>administracija ugovora</li>
@@ -376,10 +376,10 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
 </section>--%>
 
         <%-- iz habibija --%>
-    <section id="contact">
+    <section id="contact" style="background-color: #06456B;">
         	<div class="heading-center">
-					<h2 class="section-heading">Kontaktirajte nas ili nas posjetite na lokaciji</h2>					
-					<hr>
+					<h2 class="section-heading" style="color: #FFFFFF;">Kontaktirajte nas ili nas posjetite na lokaciji</h2>					
+					<hr style="width:720px;border-color: white;">
                     </div>
          <div class="contact-us">
        <div class="container">
@@ -492,7 +492,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
         
             </section>
         <%-- zatvoreno iz habibija --%>
-    <div class="copyright">
+    <div class="copyright" style="border-color: #021A29;background: #032236;">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -501,12 +501,12 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                     </p>
                 </div>
                 <div class="col-md-8">
-                    <ul class="footermenu pull-right">
+                    <%--<ul class="footermenu pull-right">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Product</a></li>
                         <li><a href="#">Gallery</a></li>
                         <li><a href="#">Contact</a></li>
-                    </ul>
+                    </ul>--%>
                 </div>
             </div>
         </div>
