@@ -259,7 +259,8 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
             </div>--%>
 
             <div class="col-md-6">
-                <h3>Računovodstvene usluge</h3>
+               <div style="margin:30px">
+                   <h3>Računovodstvene usluge</h3>
                      <ul type="disc">
                         <li>izrada računovodstvene politike i kontnog plana prema specifičnim potrebama svakog klijenta</li>
                         <li>vođenje financijskog knjigovodstva: dnevnika i glavne knjige</li>
@@ -273,19 +274,22 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                         <li>dostava i preuzimanje dokumentacije</li>
                         <li>dostupnost podataka 24/7</li>
                      </ul>
+                 </div>
             </div>
 
             <div class="col-md-6" >
-                <h3>Kadrovska</h3>
-                <ul type="disc">
-                    <li>registracija zaposlenika </li>
-                    <li>administracija ugovora</li>
-                    <li>izračun plaće, doprinosa, provizija, bonusa i slično</li>
-                    <li>izračun drugog dohotka</li>
-                    <li>uplate i evidencija</li>
-                    <li>izrada izvještaja za državne institucije i zaposlene</li>
-                    <li>isplata plaća putem internet bankarstva</li>
-                </ul>
+                <div style="margin:30px">
+                    <h3>Kadrovska</h3>
+                        <ul type="disc">
+                             <li>registracija zaposlenika </li>
+                             <li>administracija ugovora</li>
+                             <li>izračun plaće, doprinosa, provizija, bonusa i slično</li>
+                             <li>izračun drugog dohotka</li>
+                             <li>uplate i evidencija</li>
+                             <li>izrada izvještaja za državne institucije i zaposlene</li>
+                            <li>isplata plaća putem internet bankarstva</li>
+                        </ul>
+                </div>
             </div>
             </div>
 
@@ -460,57 +464,51 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                <div class="col-sm-12">
                    <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.969121478749!2d15.965802215405358!3d45.771809079105836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d5d3fe5d3a95%3A0xc43b83e2008aef54!2sSiget+ul.+18A%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1513187552298" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
                   <%-- <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.15947314275!2d15.93905251556764!3d45.76799417910569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d43ba34f8727%3A0xe97ed758c57f65b!2sMarita+Market!5e0!3m2!1shr!2shr!4v1504394070429"></iframe>
-                  --%> <div class="row">
-                       <div class="col-sm-4">
+                  --%> 
+                   <center>
+                   <div class="row">
+                       <div class="col-sm-6">
                            <i class="fa fa-map-marker" style="font-size:16px;"></i>   Address
                        </div>
-                       <div class="col-sm-8">
+                       <div class="col-sm-6">
                             <a href="https://goo.gl/maps/WEhpZXPZYbs">Siget ulica 18A, Zagreb, Hrvatska</a>
                        </div>
                    </div>
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-sm-6">
                             <i class="fa fa-phone"></i>   Phone
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-6">
                              <a href="tel:+385915567893">+(385) 91 5567893</a>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-sm-6">
                             <i class="fa fa-envelope"></i>   Email
                         </div>
-                        <div class="col-sm-8">
+                        <div class="col-sm-6">
                              <a href="mailto:jkodric@gmail.com">jkodric@gmail.com</a> <br>
                         </div>
                     </div>
+                    </center>
                </div>
            </div>
           </div>
        </div>
    </div>
-        
-            </section>
+                
+</section>
+
+
         <%-- zatvoreno iz habibija --%>
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <p class="pull-left">
-                        &copy; Copyright 2017 Debug IT
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <ul class="footermenu pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Product</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+    <center>
+        <div class="copyright">
+            <p>
+                &copy; Copyright 2017 Debug IT
+            </p>
         </div>
-    </div>
+    </center>
+
     <!-- Script -->
     <script src="Scripts/jquery.js" type="text/javascript"></script>
     <script src="Scripts/bootstrap.js" type="text/javascript"></script>
