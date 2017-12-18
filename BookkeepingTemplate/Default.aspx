@@ -52,7 +52,7 @@
 						</li>
 						
 						<li>
-							<a class="page-scroll" href="#portfolio" style="color:#074B75;font-weight:bold;">PORTFOLIO</a>
+							<a class="page-scroll" href="#portfolio" style="color:#074B75;font-weight:bold;">USLUGE</a>
 						</li>
 						
 						<li>
