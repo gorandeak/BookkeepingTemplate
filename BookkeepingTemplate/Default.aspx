@@ -252,11 +252,11 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                         <div class="tab-featured-image">
                             <div class="tab-content">
                                 <div class="tab-pane  in active" id="tab1">
-                                    <img src="Img/bookkeeping-615384_960_720.jpg" class="img img-responsive"/>
+                                    <img src="Img/img3.jpg" class="img img-responsive"/>
                                        
                                 </div>
                                 <div class="tab-pane " id="tab2">
-                                    <img src="Img/notepad-771599_960_720.jpg" class="img img-responsive"/>
+                                    <img src="Img/img4.jpg" class="img img-responsive"/>
                                         <%--<img src="https://unsplash.imgix.net/uploads/1411724908903377d4696/2e9b0cb2?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab2" class="img img-responsive" >--%>
                                     
                                 </div>
