@@ -397,7 +397,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
 					<hr style="width:720px;border-color: white;">
                     </div>
 
-        <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.969121478749!2d15.965802215405358!3d45.771809079105836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d5d3fe5d3a95%3A0xc43b83e2008aef54!2sSiget+ul.+18A%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1513187552298" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+<%--        <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.969121478749!2d15.965802215405358!3d45.771809079105836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d5d3fe5d3a95%3A0xc43b83e2008aef54!2sSiget+ul.+18A%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1513187552298" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>--%>
 
          <div class="contact-us" style="margin-top:50px; margin-bottom:50px">
        <div class="container">
@@ -476,10 +476,10 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                     </div>
                </div>
               <div class="col-sm-5">
-                 <%--  <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.969121478749!2d15.965802215405358!3d45.771809079105836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d5d3fe5d3a95%3A0xc43b83e2008aef54!2sSiget+ul.+18A%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1513187552298" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.969121478749!2d15.965802215405358!3d45.771809079105836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d5d3fe5d3a95%3A0xc43b83e2008aef54!2sSiget+ul.+18A%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1513187552298" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
                   <%-- <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.15947314275!2d15.93905251556764!3d45.76799417910569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d43ba34f8727%3A0xe97ed758c57f65b!2sMarita+Market!5e0!3m2!1shr!2shr!4v1504394070429"></iframe>
                   --%> 
-                  <center>
+                 <%-- <center>
                   <div class="row">
                   
                        <div class="col-sm-6">
@@ -505,8 +505,40 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                              <a href="mailto:jkodric@gmail.com" style="font-size:20px;">jkodric@gmail.com</a> <br>
                         </div>
                     </div>
-                    </center>
+                    </center>--%>
                </div>
+
+                
+                    <div class="row">
+               <center>
+                  <div class="row">
+                  
+                       <div class="col-sm-6"  style="padding-top:50px;">
+                           <i class="fa fa-map-marker" style="font-size:30px;"></i>   Address
+                       </div>
+                       <div class="col-sm-6">
+                            <a href="https://goo.gl/maps/WEhpZXPZYbs" style="font-size:20px;">Siget ulica 18A, Zagreb, Hrvatska</a>
+                       </div>
+                   </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <i class="fa fa-phone" style="font-size:30px;"></i>   Phone
+                        </div>
+                        <div class="col-sm-6">
+                             <a href="tel:+385915567893" style="font-size:20px;">+(385) 91 5567893</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <i class="fa fa-envelope" style="font-size:30px;"></i>   Email
+                        </div>
+                        <div class="col-sm-6"  style="padding-bottom:50px;">
+                             <a href="mailto:jkodric@gmail.com" style="font-size:20px;">jkodric@gmail.com</a> <br>
+                        </div>
+                    </div>
+
+                    </center>
+                        </div>
            </div>
           </div>
        </div>
