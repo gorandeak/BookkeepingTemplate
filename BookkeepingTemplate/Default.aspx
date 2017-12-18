@@ -38,7 +38,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="Img/logo_knjig.png" width="100" height="35"</a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="Img/logo_knjig.png" width="100" height="35" /></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -78,12 +78,13 @@
 				<div class="row">
 					<div class="col-md-6 fadein scaleInv anim_1">
                     <br />
+
 						<div class="fadein scaleInv anim_2">
-							<h1 class="carouselText1 animated fadeInLeftBig">Tekst  <span class="colortext">Tekst tekst tekst tekst tekst tekst</span></h1>
+							<h1 class="carouselText1 animated fadeInLeftBig">Tekst  <span class="colortext">Trebate pomoć iz područja knjigovodstva, računovodstva, poreznih propisa i zakona?</span></h1>
 						</div>
 						<div class="fadein scaleInv anim_1">
 							<p class="carouselText2 animated fadeInLeftBig">
-								Tekst tekst tekst tekst tekst tekst
+								 Obratite nam se s povjerenjem
 							</p>
 						</div>							
 						
@@ -117,16 +118,15 @@
 						<br>
 						<br>
 						<div class="car-highlight3 animated fadeInUpBig notransition">
-							 Tekst tekst tekst tekst tekst tekst
+							 Trebate pomoć iz područja knjigovodstva,
 						</div>
 						<br>
 						<div class="car-highlight4 animated flipInX notransition">
-							Tekst tekst tekst tekst tekst tekst
+							računovodstva, poreznih propisa i zakona?
 						</div>
 						<br>
 						<div class="car-highlight5 animated rollIn notransition">
-							 Tekst tekst tekst tekst tekst tekst
-							Tekst tekst tekst tekst tekst tekst<br /> Tekst tekst tekst tekst tekst tekst
+							Obratite nam se s povjerenjem<br /> Mi smo ovdje za Vas
 						</div>
 					</div>
 				</div>
@@ -158,7 +158,7 @@
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 
                 <!-- panel 1 -->
-                <div class="panel panel-default">
+               <%-- <div class="panel panel-default">
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
                     <span class="side-tab" data-target="#tab1" data-toggle="tab" role="tab" aria-expanded="false">
                         <div class="panel-heading" role="tab" id="headingOne"data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: #145DA3;">
@@ -190,16 +190,16 @@
                 </div>
                 <!-- / panel 2 -->
                 
-                <!--  panel 3 -->
+                <!--  panel 3 -->--%>
                 <div class="panel panel-default">
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
-                    <span class="side-tab" data-target="#tab3" data-toggle="tab" role="tab" aria-expanded="false">
+<%--                    <span class="side-tab" data-target="#tab3" data-toggle="tab" role="tab" aria-expanded="false">
                         <div class="panel-heading" role="tab" id="headingThree"  class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: #145DA3;">
-                            <h4 class="panel-title">Prvi račun</h4>
+                            <h4 class="panel-title">Prvi račun d.o.o.</h4>
                         </div>
-                    </span>
+                    </span>--%>
 
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                       <%-- <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">--%>
                             <div class="panel-body" style="background-color: #F0EEFF;">
                                 <p><strong>PRVI RAČUN</strong> je pouzdani partner nizu poduzeća u Hrvatskoj. Mnogi su prepoznali kvalitete našeg tima, a posebno cijene i induvidualni pristup koji posvećujemo svakom klijentu.
 Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitost po povoljnoj cijeni. Većina naših klijenata su uspješna poduzeća koja pratimo profesionalano u ispunjenju svih zadaća stavljenih pred naš tim.</p>
@@ -207,7 +207,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                                 <p> U suradnji sa vodećim institucijama u zemlji, vrlo brzo riješavamo sve potencijalne probleme i dovodimo Vaše poslovne knjige u red, Čime Vam štedimo novac i vrijeme.
                                 </p>
                             </div>
-                        </div>
+                      <%--  </div>--%>
                       </div>
             </div> <!-- / panel-group -->
              
@@ -278,6 +278,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
             </div>
 
             <div class="col-md-6" >
+                <div class="col-lg-12">
                 <div style="margin:30px">
                 <h3 style="border-color: #0D8BD9; color: #0D8BD9;">Kadrovska</h3>
                 <ul type="disc">
@@ -290,6 +291,16 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                     <li>isplata plaća putem internet bankarstva</li>
                 </ul>
             </div>
+            </div>
+                <div class="col-lg-12">
+                <div style="margin:30px">
+                <h3 style="border-color: #0D8BD9; color: #0D8BD9;">Porezno i financijsko savjetovanje</h3>
+                <ul type="disc">
+                    <li>Izrada kreditnih zahtjeva i prikupljanje potrebne dokumentacije</li>
+                    <li>Konzalting za sve djelatnosti</li>
+                    <li>Savjetovanje iz područja računovodstva, poreznih i drugih zakona</li>
+                 </ul>
+                 </div>
             </div>
             </div>
 
@@ -381,15 +392,18 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
 
         <%-- iz habibija --%>
     <section id="contact" style="background-color: #06456B;">
-        	<div class="heading-center">
-					<h2 class="section-heading" style="color: #FFFFFF;">Kontaktirajte nas ili nas posjetite na lokaciji</h2>					
+        	<div class="heading-center" style="margin-bottom:50px">
+					<h2 class="section-heading" style="color: #FFFFFF; margin-left:10px; margin-right:10px;">Kontaktirajte nas ili nas posjetite na lokaciji</h2>					
 					<hr style="width:720px;border-color: white;">
                     </div>
-         <div class="contact-us">
+
+        <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.969121478749!2d15.965802215405358!3d45.771809079105836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d5d3fe5d3a95%3A0xc43b83e2008aef54!2sSiget+ul.+18A%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1513187552298" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+         <div class="contact-us" style="margin-top:50px; margin-bottom:50px">
        <div class="container">
           <div class="contact-form">
            <div class="row">
-               <div class="col-sm-12">                  
+               <div class="col-sm-7">                  
                     <div id="ajax-contact"  method="post" action="contact-form-mail.php" role="form">
                         <div class="messages" id="form-messages"></div>
                         <div class="controls">
@@ -461,33 +475,34 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                         </div>
                     </div>
                </div>
-               <div class="col-sm-12">
-                   <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.969121478749!2d15.965802215405358!3d45.771809079105836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d5d3fe5d3a95%3A0xc43b83e2008aef54!2sSiget+ul.+18A%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1513187552298" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <div class="col-sm-5">
+                 <%--  <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.969121478749!2d15.965802215405358!3d45.771809079105836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d5d3fe5d3a95%3A0xc43b83e2008aef54!2sSiget+ul.+18A%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1513187552298" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
                   <%-- <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.15947314275!2d15.93905251556764!3d45.76799417910569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d43ba34f8727%3A0xe97ed758c57f65b!2sMarita+Market!5e0!3m2!1shr!2shr!4v1504394070429"></iframe>
                   --%> 
-                   <center>
-                   <div class="row">
+                  <center>
+                  <div class="row">
+                  
                        <div class="col-sm-6">
-                           <i class="fa fa-map-marker" style="font-size:16px;"></i>   Address
+                           <i class="fa fa-map-marker" style="font-size:30px;"></i>   Address
                        </div>
                        <div class="col-sm-6">
-                            <a href="https://goo.gl/maps/WEhpZXPZYbs">Siget ulica 18A, Zagreb, Hrvatska</a>
+                            <a href="https://goo.gl/maps/WEhpZXPZYbs" style="font-size:20px;">Siget ulica 18A, Zagreb, Hrvatska</a>
                        </div>
                    </div>
                     <div class="row">
                         <div class="col-sm-6">
-                            <i class="fa fa-phone"></i>   Phone
+                            <i class="fa fa-phone" style="font-size:30px;"></i>   Phone
                         </div>
                         <div class="col-sm-6">
-                             <a href="tel:+385915567893">+(385) 91 5567893</a>
+                             <a href="tel:+385915567893" style="font-size:20px;">+(385) 91 5567893</a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
-                            <i class="fa fa-envelope"></i>   Email
+                            <i class="fa fa-envelope" style="font-size:30px;"></i>   Email
                         </div>
                         <div class="col-sm-6">
-                             <a href="mailto:jkodric@gmail.com">jkodric@gmail.com</a> <br>
+                             <a href="mailto:jkodric@gmail.com" style="font-size:20px;">jkodric@gmail.com</a> <br>
                         </div>
                     </div>
                     </center>
@@ -495,30 +510,20 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
            </div>
           </div>
        </div>
-   </div>
+             </div>
+   
                 
 </section>
 
 
         <%-- zatvoreno iz habibija --%>
     <div class="copyright" style="border-color: #021A29;background: #032236;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <p class="pull-left">
+             <center>
+                    <p>
                         &copy; Copyright 2017 Debug IT
                     </p>
-                </div>
-                <div class="col-md-8">
-                    <%--<ul class="footermenu pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Product</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>--%>
-                </div>
-            </div>
-        </div>
+             </center>
+        
     </div>
     <!-- Script -->
     <script src="Scripts/jquery.js" type="text/javascript"></script>
