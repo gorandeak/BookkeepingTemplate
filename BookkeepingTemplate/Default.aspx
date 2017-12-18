@@ -467,7 +467,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-12"  style="padding-bottom:50px;">
                                    <br>
                                     <small class="text-muted"><strong>*</strong> Ova polja su obavezna.</small>
                                 </div>
@@ -513,7 +513,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                <center>
                   <div class="row">
                   
-                       <div class="col-sm-6"  style="padding-top:50px;">
+                       <div class="col-sm-6">
                            <i class="fa fa-map-marker" style="font-size:30px;"></i>   Address
                        </div>
                        <div class="col-sm-6">
@@ -532,7 +532,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                         <div class="col-sm-6">
                             <i class="fa fa-envelope" style="font-size:30px;"></i>   Email
                         </div>
-                        <div class="col-sm-6"  style="padding-bottom:50px;">
+                        <div class="col-sm-6">
                              <a href="mailto:jkodric@gmail.com" style="font-size:20px;">jkodric@gmail.com</a> <br>
                         </div>
                     </div>
@@ -551,7 +551,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
         <%-- zatvoreno iz habibija --%>
     <div class="copyright" style="border-color: #021A29;background: #032236;">
              <center>
-                    <p>
+                    <p style="margin-top:20px; margin-bottom:20px; font-size:15px;">
                         &copy; Copyright 2017 Debug IT
                     </p>
              </center>
