@@ -158,17 +158,20 @@
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 
                 <!-- panel 1 -->
-               <%-- <div class="panel panel-default">
+
+       <div class="panel panel-default">
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
                     <span class="side-tab" data-target="#tab1" data-toggle="tab" role="tab" aria-expanded="false">
                         <div class="panel-heading" role="tab" id="headingOne"data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: #145DA3;">
-                            <h4 class="panel-title">Računovodstvene usluge</h4>
+                            <h4 class="panel-title">Prvi račun d.o.o.</h4>
                         </div>
                     </span>
                     
                     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body" style="background-color: #F0EEFF;">
-                        Nudimo računovodstvene usluge u skladu sa Zakonom o računovodstvu, hrvatskim i međunarodnim računovodstvenim standardima i standardima finacijskogfinancijskog izvješćivanja (ovisno o veličini i potrebama klijenta) te poreznim propisima.</div>
+                        <p><strong>PRVI RAČUN</strong> je pouzdani partner nizu poduzeća u Hrvatskoj. Mnogi su prepoznali kvalitete našeg tima, a posebno cijene i induvidualni pristup koji posvećujemo svakom klijentu.
+Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitost po povoljnoj cijeni. Većina naših klijenata su uspješna poduzeća koja pratimo profesionalano u ispunjenju svih zadaća stavljenih pred naš tim.</p>
+                        </div>
                     </div>
                 </div> 
                 <!-- / panel 1 -->
@@ -178,20 +181,51 @@
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
                     <span class="side-tab" data-target="#tab2" data-toggle="tab" role="tab" aria-expanded="false">
                         <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #145DA3;">
-                            <h4 class="panel-title collapsed">Kadrovska</h4>
+                            <h4 class="panel-title collapsed">Računovodstvene usluge</h4>
                         </div>
                     </span>
 
                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                          <div class="panel-body" style="background-color: #F0EEFF;">
-                      Sve veći broj poduzeća slijedi trend da kroz outsourcing obračuna plaće, poveća svoju efikasnost i smanji rizike prisutne kod vođenja evidencija ljudskih resursa. Usluge obračuna plaća obavljaju se u skladu sa propisima o porezu na dohodak, zakon o radu i drugim propisima koji uređuju područje plaća i ostalih primanja.
-                          </div>
+                             <p>Nudimo računovodstvene usluge u skladu sa Zakonom o računovodstvu, hrvatskim i međunarodnim računovodstvenim standardima i standardima finacijskogfinancijskog izvješćivanja (ovisno o veličini i potrebama klijenta) te poreznim propisima.</p>
+                        </div>
                     </div>
                 </div>
+
+             <%-- <div class="panel panel-default">
+                    <!--wrap panel heading in span to trigger image change as well as collapse -->
+                    <span class="side-tab" data-target="#tab1" data-toggle="tab" role="tab" aria-expanded="false">
+                        <div class="panel-heading" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: #145DA3;">
+                            <h4 class="panel-title"></h4>
+                        </div>
+                    </span>
+                    
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body" style="background-color: #F0EEFF;">
+                                  </div>
+                </div> 
+                <!-- / panel 1 -->
+                
+                <!-- panel 2 -->
+                <div class="panel panel-default">
+                    <!--wrap panel heading in span to trigger image change as well as collapse -->
+                    <span class="side-tab" data-target="#tab2" data-toggle="tab" role="tab" aria-expanded="false">
+                        <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #145DA3;">
+                            <h4 class="panel-title collapsed">Računovodstvene usluge</h4>
+                        </div>
+                    </span>
+
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                         <div class="panel-body" style="background-color: #F0EEFF;">
+  Nudimo računovodstvene usluge u skladu sa Zakonom o računovodstvu, hrvatskim i međunarodnim računovodstvenim standardima i standardima finacijskogfinancijskog izvješćivanja (ovisno o veličini i potrebama klijenta) te poreznim propisima.</div>
+                    </div>
+                    </div>
+                </div>--%>
                 <!-- / panel 2 -->
                 
-                <!--  panel 3 -->--%>
-                <div class="panel panel-default">
+             
+                <!--  panel 3 -->
+                   <!--<div class="panel panel-default">
                     <!--wrap panel heading in span to trigger image change as well as collapse -->
 <%--                    <span class="side-tab" data-target="#tab3" data-toggle="tab" role="tab" aria-expanded="false">
                         <div class="panel-heading" role="tab" id="headingThree"  class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: #145DA3;">
@@ -200,15 +234,13 @@
                     </span>--%>
 
                        <%-- <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">--%>
-                            <div class="panel-body" style="background-color: #F0EEFF;">
-                                <p><strong>PRVI RAČUN</strong> je pouzdani partner nizu poduzeća u Hrvatskoj. Mnogi su prepoznali kvalitete našeg tima, a posebno cijene i induvidualni pristup koji posvećujemo svakom klijentu.
-Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitost po povoljnoj cijeni. Većina naših klijenata su uspješna poduzeća koja pratimo profesionalano u ispunjenju svih zadaća stavljenih pred naš tim.</p>
-                                <br/>
+                        <%--    <div class="panel-body" style="background-color: #F0EEFF;">
+                         <br/>
                                 <p> U suradnji sa vodećim institucijama u zemlji, vrlo brzo riješavamo sve potencijalne probleme i dovodimo Vaše poslovne knjige u red, Čime Vam štedimo novac i vrijeme.
                                 </p>
-                            </div>
+                            </div>--%>
                       <%--  </div>--%>
-                      </div>
+                  <%--    </div>--%>
             </div> <!-- / panel-group -->
              
         </div> <!-- /col-md-4 -->
