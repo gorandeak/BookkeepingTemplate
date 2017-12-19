@@ -150,6 +150,7 @@
     <Content Include="fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Img\700.jpg" />
+    <Content Include="Img\back.jpg" />
     <Content Include="Img\banner2.jpg" />
     <Content Include="Img\banner23.jpg" />
     <Content Include="Img\bookkeeping-615384_960_720.jpg" />

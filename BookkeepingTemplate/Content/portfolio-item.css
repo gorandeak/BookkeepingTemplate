@@ -63,9 +63,10 @@ Navbar
 Slider 
 ----------------------*/
 
-.bg1
-{
-    background-image: url('../img/banner2.jpg');
+
+
+.bg1 {
+    background-image: url('../Img/banner2.jpg');
 }
 
 .bg2
@@ -84,6 +85,14 @@ Slider
 	font-family: "Open Sans" , "Helvetica Neue" ,Helvetica,Arial,sans-serif;
 	
 }
+
+@media (max-width: 500px) {
+
+    .bg1, .bg2 {
+        background-image: url('../Img/back.jpg');
+    }
+}
+
 .carouselvshadow {
 	margin-top:-30px;
 }
