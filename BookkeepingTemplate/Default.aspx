@@ -583,7 +583,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
         <%-- zatvoreno iz habibija --%>
     <div class="copyright" style="border-color: #021A29;background: #032236;">
              <center>
-                    <p style="margin-top:20px; margin-bottom:20px; font-size:15px;">
+                    <p style="padding-top:20px; padding-bottom:15px;">
                         &copy; Copyright 2017 Debug IT
                     </p>
              </center>
