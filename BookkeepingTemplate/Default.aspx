@@ -81,7 +81,7 @@
                     <br />
 
 						<div class="fadein scaleInv anim_2">
-							<h1 class="carouselText1 animated fadeInLeftBig">Tekst  <span class="colortext">Trebate pomoć iz područja knjigovodstva, računovodstva, poreznih propisa i zakona?</span></h1>
+							<h1 class="carouselText1 animated fadeInLeftBig"><span class="colortext">Trebate pomoć iz područja knjigovodstva, računovodstva, poreznih propisa i zakona?</span></h1>
 						</div>
 						<div class="fadein scaleInv anim_1">
 							<p class="carouselText2 animated fadeInLeftBig">
@@ -331,7 +331,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                 <ul type="disc">
                     <li>Izrada kreditnih zahtjeva i prikupljanje potrebne dokumentacije</li>
                     <li>Konzalting za sve djelatnosti</li>
-                    <li>Savjetovanje iz područja računovodstva, poreznih i drugih zakona</li>
+                    <li  id="contact">Savjetovanje iz područja računovodstva, poreznih i drugih zakona</li>
                  </ul>
                  </div>
             </div>
@@ -424,15 +424,15 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
 </section>--%>
 
         <%-- iz habibija --%>
-    <section id="contact" style="background-color: #06456B;">
-        	<div class="heading-center" style="margin-bottom:50px">
+    <section id="contact2" style="background-color: #06456B;">
+        	<div class="heading-center">
 					<h2 class="section-heading" style="color: #FFFFFF; margin-left:10px; margin-right:10px;">Kontaktirajte nas ili nas posjetite na lokaciji</h2>					
 					<hr style="width:720px;border-color: white;">
                     </div>
 
 <%--        <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.969121478749!2d15.965802215405358!3d45.771809079105836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d5d3fe5d3a95%3A0xc43b83e2008aef54!2sSiget+ul.+18A%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1513187552298" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>--%>
 
-         <div class="contact-us" style="margin-top:50px; margin-bottom:50px">
+         <div class="contact-us">
        <div class="container">
           <div class="contact-form">
            <div class="row">
@@ -500,7 +500,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-12"  style="padding-bottom:50px;">
+                                <div class="col-md-12">
                                    <br>
                                     <small class="text-muted"><strong>*</strong> Ova polja su obavezna.</small>
                                 </div>
@@ -540,39 +540,41 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                     </div>
                     </center>--%>
                </div>
+               </div>
+               
 
                 
                     <div class="row">
                <center>
-                  <div class="row">
+                  <div class="row" style="margin:20px;">
                   
-                       <div class="col-sm-6">
-                           <i class="fa fa-map-marker" style="font-size:30px;"></i>   Address
+                       <div class="col-lg-2 col-lg-offset-7" >
+                           <i class="fa fa-map-marker" style="font-size:20px;"></i><p style="font-size:14px; display:inline;">  Address</p>
                        </div>
-                       <div class="col-sm-6">
-                            <a href="https://goo.gl/maps/WEhpZXPZYbs" style="font-size:20px;">Siget ulica 18A, Zagreb, Hrvatska</a>
+                       <div class="col-lg-3" >
+                            <a href="https://goo.gl/maps/WEhpZXPZYbs" style="color:white;">Siget ulica 18A, Zagreb, Hrvatska</a>
                        </div>
                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <i class="fa fa-phone" style="font-size:30px;"></i>   Phone
+                    <div class="row" style="margin-left:20px; margin-right:20px;">
+                        <div class="col-lg-2 col-lg-offset-7">
+                            <i class="fa fa-phone" style="font-size:20px;""></i><p style="font-size:14px;  display:inline;">  Phone</p>
                         </div>
-                        <div class="col-sm-6">
-                             <a href="tel:+385915567893" style="font-size:20px;">+(385) 91 5567893</a>
+                        <div class="col-lg-3">
+                             <a href="tel:+385915567893" style="color:white;">+(385) 91 5567893</a>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <i class="fa fa-envelope" style="font-size:30px;"></i>   Email
-                        </div>
-                        <div class="col-sm-6">
-                             <a href="mailto:jkodric@gmail.com" style="font-size:20px;">jkodric@gmail.com</a> <br>
+                    <div class="row" style="margin:20px;">
+                        <div class="col-lg-2 col-lg-offset-7">
+                            <i class="fa fa-envelope" style="font-size:20px;"></i><p style="font-size:14px;  display:inline;">  Email</p>
+                         </div>
+                        <div class="col-lg-3">
+                             <a href="mailto:jkodric@gmail.com" style="color:white;">jkodric@gmail.com</a> <br>
                         </div>
                     </div>
 
                     </center>
                         </div>
-           </div>
+           
           </div>
        </div>
              </div>
@@ -584,7 +586,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
         <%-- zatvoreno iz habibija --%>
     <div class="copyright" style="border-color: #021A29;background: #032236;">
              <center>
-                    <p style="font-size:15px;padding-top:15px;padding-bottom:20px;">
+                    <p style="font-size:15px;">
                         &copy; Copyright 2017 Debug IT
                     </p>
              </center>
