@@ -73,7 +73,8 @@
 		<li data-target="#c-slide" data-slide-to="1" class=""></li>		
 	</ol>
 	<div class="carousel-inner">
-		<div class="item active bg1">
+		<div class="item active bg1" <%--source media="(max-width: 479px)" url("Img/back.jpg")--%>>
+
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 fadein scaleInv anim_1">
@@ -135,8 +136,8 @@
 		
 	</div>
 	<!-- /.carousel-inner -->
-	<a class="left carousel-control animated fadeInLeft" href="#c-slide" data-slide="prev"><i class="fa fa-arrow-left"></i></a>
-	<a class="right carousel-control animated fadeInRight" href="#c-slide" data-slide="next"><i class="fa fa-arrow-right"></i></a>
+	<%--<a class="left carousel-control animated fadeInLeft" href="#c-slide" data-slide="prev"><i class="fa fa-arrow-left"></i></a>
+	<a class="right carousel-control animated fadeInRight" href="#c-slide" data-slide="next"><i class="fa fa-arrow-right"></i></a>--%>
 	</section>
         <!-- /.carousel end-->
     </div>
@@ -252,11 +253,11 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                         <div class="tab-featured-image">
                             <div class="tab-content">
                                 <div class="tab-pane  in active" id="tab1">
-                                    <img src="Img/bookkeeping-615384_960_720.jpg" class="img img-responsive"/>
+                                    <img src="Img/img3.jpg" class="img img-responsive"/>
                                        
                                 </div>
                                 <div class="tab-pane " id="tab2">
-                                    <img src="Img/notepad-771599_960_720.jpg" class="img img-responsive"/>
+                                    <img src="Img/img4.jpg" class="img img-responsive"/>
                                         <%--<img src="https://unsplash.imgix.net/uploads/1411724908903377d4696/2e9b0cb2?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab2" class="img img-responsive" >--%>
                                     
                                 </div>
@@ -583,7 +584,7 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
         <%-- zatvoreno iz habibija --%>
     <div class="copyright" style="border-color: #021A29;background: #032236;">
              <center>
-                    <p style="padding-top:20px; padding-bottom:15px;">
+                    <p style="font-size:15px;padding-top:15px;padding-bottom:20px;">
                         &copy; Copyright 2017 Debug IT
                     </p>
              </center>

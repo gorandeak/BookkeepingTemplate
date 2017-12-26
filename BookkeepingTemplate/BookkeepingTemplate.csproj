@@ -150,9 +150,12 @@
     <Content Include="fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Img\700.jpg" />
+    <Content Include="Img\back.jpg" />
     <Content Include="Img\banner2.jpg" />
     <Content Include="Img\banner23.jpg" />
     <Content Include="Img\bookkeeping-615384_960_720.jpg" />
+    <Content Include="Img\img3.jpg" />
+    <Content Include="Img\img4.jpg" />
     <Content Include="Img\logo_knjig.png" />
     <Content Include="Img\notepad-771599_960_720.jpg" />
     <Content Include="Img\office-2761159_960_720_1200x675.png" />
