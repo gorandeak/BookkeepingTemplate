@@ -118,16 +118,18 @@
 						<br>
 						<br>
 						<br>
-						<div class="car-highlight3 animated fadeInUpBig notransition">
+                        <br>
+                        <br>
+						<%--<div class="car-highlight3 animated fadeInUpBig notransition">
 							 Trebate pomoć iz područja knjigovodstva,
+						</div>--%>
+						<br>
+						<div class="car-highlight4 animated flipInX notransition" style="font-size:26px;font-weight:bold;">
+							Knjigovodstveni servis kojemu se <span style="color:red;">vjeruje</span>
 						</div>
 						<br>
-						<div class="car-highlight4 animated flipInX notransition">
-							računovodstva, poreznih propisa i zakona?
-						</div>
-						<br>
-						<div class="car-highlight5 animated rollIn notransition">
-							Obratite nam se s povjerenjem<br /> Mi smo ovdje za Vas
+						<div class="car-highlight5 animated rollIn notransition" style="font-size:26px;font-weight:bold;color:white;">
+							i vaš partner u uspjehu!<br /> 
 						</div>
 					</div>
 				</div>
