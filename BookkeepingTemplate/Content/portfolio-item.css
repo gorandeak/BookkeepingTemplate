@@ -716,9 +716,8 @@ Services
 -----------------*/
 #portfolio
 {
-    background-color: #E6E6E6;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    margin-left:180px;
+    width: 1300px !important;
 }
 
 

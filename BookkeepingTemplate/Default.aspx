@@ -68,12 +68,12 @@
     <div id="home">
         <section class="carousel carousel-fade slide home-slider" id="c-slide" data-ride="carousel"
             data-interval="4500" data-pause="false">
-	<ol class="carousel-indicators">
+	<ol >
 		<li data-target="#c-slide" data-slide-to="0" class="active"></li>
 		<li data-target="#c-slide" data-slide-to="1" class=""></li>		
 	</ol>
 	<div class="carousel-inner">
-		<div class="item active bg1" <%--source media="(max-width: 479px)" url("Img/back.jpg")--%>>
+		<div class="item active bg1" >
 
 			<div class="container">
 				<div class="row">
@@ -138,17 +138,16 @@
 		
 	</div>
 	<!-- /.carousel-inner -->
-	<%--<a class="left carousel-control animated fadeInLeft" href="#c-slide" data-slide="prev"><i class="fa fa-arrow-left"></i></a>
-	<a class="right carousel-control animated fadeInRight" href="#c-slide" data-slide="next"><i class="fa fa-arrow-right"></i></a>--%>
+
 	</section>
         <!-- /.carousel end-->
     </div>
     <section id="about" style="background-color:#F8F7FF;">
 			<div class="container">
-				<div class="heading-center" >
-					<h2 class="section-heading animated fadeInLeftBig" style="color: #095D91;">O nama</h2>					
+				<div class="" >
+					<h2 class="section-heading animated fadeInLeftBig" style="color: #095D91; margin-left:520px;">O nama</h2>					
 					<hr class="animated fadeInRightBig" style="border-color: #0A69A3;width: 160px;">
-
+            </div>
                    <div class="well" style="background-color: #F0EEFF;">
                    <h4 style="color: #00023D;"><strong>
                    Vođenje knjiga od malih obrta do velikih poduzeća.</strong>
@@ -156,7 +155,7 @@
                    </div>
                   <div class="container">
     <div class="row">
-        <div class="col-md-4">
+        <div class="">
             <!-- begin panel group -->
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 
@@ -195,78 +194,21 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                     </div>
                 </div>
 
-             <%-- <div class="panel panel-default">
-                    <!--wrap panel heading in span to trigger image change as well as collapse -->
-                    <span class="side-tab" data-target="#tab1" data-toggle="tab" role="tab" aria-expanded="false">
-                        <div class="panel-heading" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: #145DA3;">
-                            <h4 class="panel-title"></h4>
-                        </div>
-                    </span>
-                    
-                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                        <div class="panel-body" style="background-color: #F0EEFF;">
-                                  </div>
-                </div> 
-                <!-- / panel 1 -->
-                
-                <!-- panel 2 -->
-                <div class="panel panel-default">
-                    <!--wrap panel heading in span to trigger image change as well as collapse -->
-                    <span class="side-tab" data-target="#tab2" data-toggle="tab" role="tab" aria-expanded="false">
-                        <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #145DA3;">
-                            <h4 class="panel-title collapsed">Računovodstvene usluge</h4>
-                        </div>
-                    </span>
-
-                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                         <div class="panel-body" style="background-color: #F0EEFF;">
-  Nudimo računovodstvene usluge u skladu sa Zakonom o računovodstvu, hrvatskim i međunarodnim računovodstvenim standardima i standardima finacijskogfinancijskog izvješćivanja (ovisno o veličini i potrebama klijenta) te poreznim propisima.</div>
-                    </div>
-                    </div>
-                </div>--%>
-                <!-- / panel 2 -->
-                
-             
-                <!--  panel 3 -->
-                   <!--<div class="panel panel-default">
-                    <!--wrap panel heading in span to trigger image change as well as collapse -->
-<%--                    <span class="side-tab" data-target="#tab3" data-toggle="tab" role="tab" aria-expanded="false">
-                        <div class="panel-heading" role="tab" id="headingThree"  class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: #145DA3;">
-                            <h4 class="panel-title">Prvi račun d.o.o.</h4>
-                        </div>
-                    </span>--%>
-
-                       <%-- <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">--%>
-                        <%--    <div class="panel-body" style="background-color: #F0EEFF;">
-                         <br/>
-                                <p> U suradnji sa vodećim institucijama u zemlji, vrlo brzo riješavamo sve potencijalne probleme i dovodimo Vaše poslovne knjige u red, Čime Vam štedimo novac i vrijeme.
-                                </p>
-                            </div>--%>
-                      <%--  </div>--%>
-                  <%--    </div>--%>
             </div> <!-- / panel-group -->
              
         </div> <!-- /col-md-4 -->
         
-        <div class="col-md-8">
+        <div class="">
             <!-- begin macbook pro mockup -->
            
                     <!-- content goes here -->                
                         <div class="tab-featured-image">
                             <div class="tab-content">
                                 <div class="tab-pane  in active" id="tab1">
-                                    <img src="Img/img3.jpg" class="img img-responsive"/>
+                                    <img src="Img/img3.jpg" class="img"/>
                                        
                                 </div>
-                                <div class="tab-pane " id="tab2">
-                                    <img src="Img/img4.jpg" class="img img-responsive"/>
-                                        <%--<img src="https://unsplash.imgix.net/uploads/1411724908903377d4696/2e9b0cb2?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab2" class="img img-responsive" >--%>
-                                    
-                                </div>
-                                <div class="tab-pane fade" id="tab3">
-                                    <img src="Img/ring-binders-aligned-2654130_960_720.jpg" class="img img-responsive" />
-                                        <%--<img src="https://ununsplash.imgix.net/photo-1422479516648-9b1f0b6e8da8?dpr=2&fit=crop&fm=jpg&h=650&q=75&w=950" alt="tab3" class="img img-responsive">--%>
-                                </div>
+                             
                             </div>
                         </div>
  <!-- end macbook pro mockup -->
@@ -281,20 +223,14 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
     <!-- Portfolio Item Row -->
     <section id="portfolio">
     <div class="container">
-				<div class="heading-center">
-					<h2 class="section-heading" style="color: #095D91;">Usluge </h2>					
+				<div class="">
+					<h2 class="section-heading" style="color: #095D91;margin-left:520px;">Usluge </h2>					
 					<hr style="border-color: #0A69A3;width: 160px;">
                     </div>
                     </div>
-    <div class="container">
-        <div class="row">
-
-           <%-- <div class="col-md-6">
-                <img class="img-responsive" src="Img/700.jpg" alt="">
-            </div>--%>
-
-            <div class="col-md-6">
-               <div style="margin:30px">
+    <div class="portfolio-text">
+            <div class="">
+               <div style="margin-left:200px">
                 <h3 style="border-color: #0D8BD9; color: #0D8BD9;">Računovodstvene usluge</h3>
                      <ul type="disc">
                         <li>izrada računovodstvene politike i kontnog plana prema specifičnim potrebama svakog klijenta</li>
@@ -312,9 +248,9 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                  </div>
             </div>
 
-            <div class="col-md-6" >
-                <div class="col-lg-12">
-                <div style="margin:30px">
+            <div class="" >
+                <div class="">
+                <div style="margin-left:200px">
                 <h3 style="border-color: #0D8BD9; color: #0D8BD9;">Kadrovska</h3>
                 <ul type="disc">
                     <li>registracija zaposlenika </li>
@@ -327,8 +263,8 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
                 </ul>
             </div>
             </div>
-                <div class="col-lg-12">
-                <div style="margin:30px">
+                <div class="">
+                <div style="margin-left:200px">
                 <h3 style="border-color: #0D8BD9; color: #0D8BD9;">Porezno i financijsko savjetovanje</h3>
                 <ul type="disc">
                     <li>Izrada kreditnih zahtjeva i prikupljanje potrebne dokumentacije</li>
@@ -340,285 +276,62 @@ Korištenjem suvremenih softverskih rješenja nam omogućuje visoku učinkovitos
             </div>
 
         </div>
-        <!-- /.row -->
 
-        <!-- Related Projects Row -->
-      <%--  <div class="row">
-
-            <div class="col-lg-12">
-                <h3 class="page-header">Related Projects</h3>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-        </div>
-        <!-- /.row -->--%>
         <hr>
         </div>
 </section>
-<%--    <section id="contact">
-<div class="container">
-<div class="row">
-<form class="form-horizontal">
 
-<div class="page-header">
-<h2>Contact</h2>
-
-</div>
-   <br /><br />
-    <div class="form-group">
-      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-      <div class="col-lg-10">
-        <asp:TextBox ID="txtName" runat="server"  CssClass="form-control"></asp:TextBox>       
-      </div>
-    </div>
-    <br />
-     <br />
-    <div class="form-group">
-      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
-      <div class="col-lg-10">
-        <asp:TextBox ID="txtmail" runat="server"  CssClass="form-control"></asp:TextBox>
-       
-      </div>
-    </div>
-     <br />
-      <br />
-    <div class="form-group">
-      <label for="textArea" class="col-lg-2 control-label">Message</label>
-      <div class="col-lg-10">
-       <asp:TextBox ID="txtMessage" runat="server"  CssClass="form-control" TextMode="MultiLine" Rows="3"></asp:TextBox>
-      </div>
-    </div>
-    <br />  <br />  <br />
-     <br />
-    <div class="form-group">
-      <div class="col-lg-10 col-lg-offset-2">
-        <button type="reset" class="btn btn-default">Cancel</button>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
- 
-</form>
-</div>
-</div>
-</section>--%>
 
         <%-- iz habibija --%>
     <section id="contact2" style="background-color: #06456B;">
-        	<div class="heading-center">
-					<h2 class="section-heading" style="color: #FFFFFF; margin-left:10px; margin-right:10px;">Kontaktirajte nas ili nas posjetite na lokaciji</h2>					
+        	<div style="">
+					<h2 class="section-heading" style="color: #FFFFFF; margin-left:600px;">Kontaktirajte nas ili nas posjetite na lokaciji</h2>					
 					<hr style="width:720px;border-color: white;">
                     </div>
 
 <%--        <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.969121478749!2d15.965802215405358!3d45.771809079105836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d5d3fe5d3a95%3A0xc43b83e2008aef54!2sSiget+ul.+18A%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1513187552298" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>--%>
 
-         <div class="contact-us">
-       <div class="container">
-          <div class="contact-form">
-           <div class="row">
-               <div class="col-sm-7">                  
-                    <div id="ajax-contact"  method="post" action="contact-form-mail.php" role="form">
-                        <div class="messages" id="form-messages"></div>
-                        <div class="controls">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                       <label for="form_name">Ime *</label>
-                                       <asp:TextBox ID="TbxName" runat="server" class="form-control" placeholder="Molimo unesite svoje ime *"></asp:TextBox>
-                                        <asp:RequiredFieldValidator ID="RfvName" runat="server" ErrorMessage="Molimo unesite svoje ime *" ValidationGroup="1" ControlToValidate="TbxName"></asp:RequiredFieldValidator>
-                                     
-                                       <%--<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                                        <div class="help-block with-errors">Molimo unesite svoje ime</div>--%>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_lastname">Prezime *</label>
-                                    <asp:TextBox ID="TbxLastName" runat="server" class="form-control" placeholder="Molimo unesite svoje prezime *"></asp:TextBox>
-                                        <asp:RequiredFieldValidator ID="RfvLastName" runat="server" ErrorMessage="Molimo unesite svoje prezime *" ControlToValidate="TbxLastName" ValidationGroup="1"></asp:RequiredFieldValidator>
-                                   <%--  <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                                        <div class="help-block with-errors">Molimo unesite svoje prezime</div>--%>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="form_email">Email *</label>
-                                       <asp:TextBox ID="TbxMail" runat="server" class="form-control" placeholder="Molimo unesite svoj email *" TextMode="Email"></asp:TextBox>
-                                       <asp:RequiredFieldValidator ID="RfvMail" runat="server" ErrorMessage="Molimo unesite svoj email *" ControlToValidate="TbxMail" ValidationGroup="1"></asp:RequiredFieldValidator>
-                                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Unešeni Email je u krivom formatu" ControlToValidate="TbxMail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ValidationGroup="1"></asp:RegularExpressionValidator>
-                                      <%-- <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                        <div class="help-block with-errors">Unešeni Email je u krivom formatu</div>--%>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                    <label for="form_phone">Telefon</label>
-                                      <asp:TextBox ID="TbxPhone" runat="server" class="form-control" placeholder="Molimo unesite svoj broj telefona"></asp:TextBox>
-                                     <asp:RequiredFieldValidator ID="RfvPhone" runat="server" ErrorMessage="Molimo unesite svoj broj telefona*" ControlToValidate="TbxPhone" ValidationGroup="1"></asp:RequiredFieldValidator>
-                                    <%--   <input id="form_phone" type="tel" name="phone"  class="form-control" placeholder="Please enter your phone*" required oninvalid="setCustomValidity('Plz enter your correct phone number ')"
-    onchange="try{setCustomValidity('')}catch(e){}">--%>
-                                   <%--     <div class="help-block with-errors">Molimo unesite svoj broj telefona</div>--%>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                   <label for="form_message">Poruka *</label>
-                                      <asp:TextBox ID="textarea1" runat="server"  TextMode="MultiLine" class="form-control" placeholder="Poruka: *" rows="4"/>
-                                        <asp:RequiredFieldValidator ID="RfvPoruka" runat="server" ErrorMessage="Molimo Vas da ostavite poruku." ValidationGroup="1" ControlToValidate="textarea1"></asp:RequiredFieldValidator>
-                                  
-                                     <%--   <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-                                        <div class="help-block with-errors"></div>--%>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                 <asp:Button ID="Button1" runat="server" class="btn" Text="Pošalji"  OnClick="Button1_Click1" ValidationGroup="1" ForeColor="Black" />
-                                <%--   <input type="Pošalji" class="btn" value="Send message" />--%>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                   <br>
-                                    <small class="text-muted"><strong>*</strong> Ova polja su obavezna.</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-               </div>
-              <div class="col-sm-5">
-                <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.969121478749!2d15.965802215405358!3d45.771809079105836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d5d3fe5d3a95%3A0xc43b83e2008aef54!2sSiget+ul.+18A%2C+10000%2C+Zagreb!5e0!3m2!1shr!2shr!4v1513187552298" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-                  <%-- <iframe width="100%" height="400" frameborder="0" style="border-radius:0px;" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.15947314275!2d15.93905251556764!3d45.76799417910569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d43ba34f8727%3A0xe97ed758c57f65b!2sMarita+Market!5e0!3m2!1shr!2shr!4v1504394070429"></iframe>
-                  --%> 
-                 <%-- <center>
-                  <div class="row">
-                  
-                       <div class="col-sm-6">
-                           <i class="fa fa-map-marker" style="font-size:30px;"></i>   Address
-                       </div>
-                       <div class="col-sm-6">
-                            <a href="https://goo.gl/maps/WEhpZXPZYbs" style="font-size:20px;">Siget ulica 18A, Zagreb, Hrvatska</a>
-                       </div>
-                   </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <i class="fa fa-phone" style="font-size:30px;"></i>   Phone
-                        </div>
-                        <div class="col-sm-6">
-                             <a href="tel:+385915567893" style="font-size:20px;">+(385) 91 5567893</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <i class="fa fa-envelope" style="font-size:30px;"></i>   Email
-                        </div>
-                        <div class="col-sm-6">
-                             <a href="mailto:jkodric@gmail.com" style="font-size:20px;">jkodric@gmail.com</a> <br>
-                        </div>
-                    </div>
-                    </center>--%>
-               </div>
-               </div>
-               
-
-                
-                    <div class="row">
-               <center>
+         <div class="heading-center">
+                   <div class="text-center">
+             
                   <div class="row" style="margin:20px;">
                   
-                       <div class="col-lg-2 col-lg-offset-7" >
+                       <div class="col-sm-2 col-sm-offset-3" >
                            <i class="fa fa-map-marker" style="font-size:20px;"></i><p style="font-size:14px; display:inline;">  Address</p>
                        </div>
-                       <div class="col-lg-3" >
+                       <div class="col-sm-3" >
                             <a href="https://goo.gl/maps/WEhpZXPZYbs" style="color:white;">Siget ulica 18A, Zagreb, Hrvatska</a>
                        </div>
                    </div>
                     <div class="row" style="margin-left:20px; margin-right:20px;">
-                        <div class="col-lg-2 col-lg-offset-7">
+                        <div class="col-sm-4 col-sm-offset-2">
                             <i class="fa fa-phone" style="font-size:20px;""></i><p style="font-size:14px;  display:inline;">  Phone</p>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-1">
                              <a href="tel:+385915567893" style="color:white;">+(385) 91 5567893</a>
                         </div>
                     </div>
                     <div class="row" style="margin:20px;">
-                        <div class="col-lg-2 col-lg-offset-7">
+                        <div class="col-lg-2 col-sm-offset-3">
                             <i class="fa fa-envelope" style="font-size:20px;"></i><p style="font-size:14px;  display:inline;">  Email</p>
                          </div>
-                        <div class="col-lg-3">
+                        <div class="col-sm-2">
                              <a href="mailto:jkodric@gmail.com" style="color:white;">jkodric@gmail.com</a> <br>
                         </div>
                     </div>
 
-                    </center>
-                        </div>
-           
-          </div>
-       </div>
+                   </div>     
              </div>
    
                 
 </section>
 
-
-        <%-- zatvoreno iz habibija --%>
-    <div class="copyright" style="border-color: #021A29;background: #032236;">
-             <center>
-                    <p style="font-size:15px;">
-                        &copy; Copyright 2017 Debug IT
-                    </p>
-             </center>
-        
-    </div>
     <!-- Script -->
     <script src="Scripts/jquery.js" type="text/javascript"></script>
     <script src="Scripts/bootstrap.js" type="text/javascript"></script>
-    <script src="Scripts/scrolling-nav.js" type="text/javascript"></script>
-    <script src="Scripts/jquery.easing.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function () {
-            var offset = 220;
-            var duration = 500;
-            jQuery(window).scroll(function () {
-                if (jQuery(this).scrollTop() > offset) {
-                    jQuery('.back-to-top').fadeIn(duration);
-                } else {
-                    jQuery('.back-to-top').fadeOut(duration);
-                }
-            });
+<%--    <script src="Scripts/jquery.easing.min.js" type="text/javascript"></script>--%>
 
-            jQuery('.back-to-top').click(function (event) {
-                event.preventDefault();
-                jQuery('html, body').animate({ scrollTop: 0 }, duration);
-                return false;
-            })
-        });
-    </script>
-    <a href="#" class="back-to-top">UP</a>
+
     </form>
 </body>
 </html>
